@@ -12,6 +12,7 @@ function mouseDown(e){
     document.addEventListener('mouseup', mouseUp)
 }
 
+
 function mouseMove(e){
     newX = startX - e.clientX
     newY = startY - e.clientY
